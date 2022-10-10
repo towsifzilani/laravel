@@ -531,8 +531,8 @@ section {
 }
 
 .padd-section {
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 @media (max-width: 992px) {
