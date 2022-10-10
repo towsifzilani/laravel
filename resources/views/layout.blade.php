@@ -51,9 +51,8 @@
         <li><a class="nav-link scrollto {{ Request::is('/') ? 'active':'' }}" href="/">Home</a></li>
         <li><a class="nav-link scrollto {{ Request::is('about') ? 'active':'' }}" href="/about">About</a></li>
         <li><a class="nav-link scrollto" href="#features">Features</a></li>
-        <li><a class="nav-link scrollto" href="#screenshots">Screenshots</a></li>
-        <li><a class="nav-link scrollto" href="#team">Team</a></li>
-        <li><a class="nav-link scrollto" href="/pricing">Pricing</a></li>
+        <li><a class="nav-link scrollto {{ Request::is('pricing') ? 'active':'' }}" href="/pricing">Pricing</a></li>
+        <li><a class="nav-link scrollto {{ Request::is('blog') ? 'active':'' }}" href="/blog">Blog</a></li>
         {{--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>

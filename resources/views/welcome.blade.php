@@ -257,7 +257,7 @@
   </section><!-- End Testimonials Section -->
 
   <!-- ======= Blog Section ======= -->
-  <section id="blog" class="padd-sectio">
+  <section id="blog" class="padd-section">
 
     <div class="container" data-aos="fade-up">
       <div class="section-title text-center">
