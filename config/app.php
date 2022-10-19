@@ -161,10 +161,13 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        App\Providers\TestProvider::class,
 
         /*
          * Package Service Providers...
          */
+
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Application Service Providers...
